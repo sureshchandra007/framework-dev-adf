@@ -1,0 +1,16 @@
+{
+	"name": "ADF_SETTLEMENTQA",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=ewqksqldb01.corp.checkfree.com\\sqli01;initial catalog=ADF_SETTLEMENT;user id=billerbi",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJiYTQ1ODBjNC04ZmIxLTQwNDUtYmMyNC03M2M3ODk0M2NiZTMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime4",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

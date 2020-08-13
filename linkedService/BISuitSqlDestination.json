@@ -1,0 +1,16 @@
+{
+	"name": "BISuitSqlDestination",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=ewqksqldb01.corp.checkfree.com\\sqli01;initial catalog=SSIS_CONFIG_BI_SUITE;user id=billerbi",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJkYTE2ZjlhZS04ZWRjLTQyZTQtYWU0MC1mZGY3N2I3NThiNGUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime4",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

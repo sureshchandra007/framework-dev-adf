@@ -1,0 +1,15 @@
+{
+	"name": "PowerBILogImport",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://fiservcorp.sharepoint.com/:x:/r/sites/powerbiauditing/Shared%20Documents/Log/PowerBIAudit_20180912.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Digest",
+			"userName": "rob.long@fiserv.com",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIlBPQ0ZBQ1RPUllfYzJkZGFmZjktOWUxZS00ZjhmLWEyODMtN2RhN2M1NzE2YjY2Ig0KfQ=="
+		}
+	}
+}

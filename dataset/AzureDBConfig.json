@@ -1,0 +1,74 @@
+{
+	"name": "AzureDBConfig",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDBCONFIG_BI_SUITE",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "ID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "SourceTable",
+				"type": "varchar"
+			},
+			{
+				"name": "SQLQuery",
+				"type": "varchar"
+			},
+			{
+				"name": "BaseQuery",
+				"type": "varchar"
+			},
+			{
+				"name": "SourceConnStr",
+				"type": "varchar"
+			},
+			{
+				"name": "DestConnStr",
+				"type": "varchar"
+			},
+			{
+				"name": "LandingTable",
+				"type": "varchar"
+			},
+			{
+				"name": "SQLJobName",
+				"type": "varchar"
+			},
+			{
+				"name": "StatusFlag",
+				"type": "tinyint",
+				"precision": 3
+			},
+			{
+				"name": "LastProcessedDate",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "ErrorDescription",
+				"type": "varchar"
+			},
+			{
+				"name": "FileSource",
+				"type": "varchar"
+			},
+			{
+				"name": "SchemaName",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "control"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

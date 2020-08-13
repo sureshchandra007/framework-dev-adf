@@ -1,0 +1,14 @@
+{
+	"name": "ODataForOffice365",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "OData",
+		"typeProperties": {
+			"url": "https://reports.office.com/pbi/v1.0/11873a1f-4c8d-450d-8dfb-e37a2e2557f8",
+			"authenticationType": "Basic",
+			"userName": "svc_powerbi_integration@fiserv.com",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIlBPQ0ZBQ1RPUllfNmQ4YmQ1YTItNDJjOS00ZWVhLWEwMjAtNTg1MjY1MWJmNTVjIg0KfQ=="
+		}
+	}
+}
